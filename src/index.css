@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+   scroll-behavior: smooth;
+   min-width: none;
+}
+
+@media screen and (max-width: 900px ) {
+    ::-webkit-scrollbar{
+        width: 1.5vw;
+    }
+
+    ::-webkit-scrollbar-thumb{
+        background: linear-gradient(to right, rgb(30 58 138 ), rgb(6, 34, 80));
+    }
+}
+
+@media screen and (min-width: 900px ) {
+    ::-webkit-scrollbar{
+        width: 1vw;
+    }
+
+    ::-webkit-scrollbar-thumb{
+        background: linear-gradient(to right, rgb(30 58 138 ), rgb(6, 34, 80));
+    }
+}
+
+@media screen and (min-width: 1200px ) {
+    ::-webkit-scrollbar{
+        width: 0.5vw;
+    }
+
+    ::-webkit-scrollbar-thumb{
+        background: linear-gradient(to right, rgb(30 58 138 ), rgb(6, 34, 80));
+    }
+}
+
+.sidebar{
+    animation: navbar .5s linear 1;
+    animation-fill-mode: both;
+}
+
+@keyframes navbar {
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.bg-black-slider{
+    background: linear-gradient(to top, rgb(57, 56, 52), black);
+}
+
+.bg-home-gradient{
+    background: linear-gradient(to right, rgb(30 58 138 ), rgb(6, 34, 80));
+}
+
+.text-gradient{
+    background: radial-gradient(rgb(75, 118, 237),rgb(109, 142, 232),rgb(14, 46, 132), rgb(25, 25, 220));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blue__gradient{
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+    filter: blur(123px);
+}
+
+.pink__gradient{
+    background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+    filter: blur(900px);
+}
+
+.white__gradient{
+    background: rgba(255, 255,255, .6);
+    filter: blur(750px);
+}
+
+body{
+    background-color: black;
+}
+
+.my__container{
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.my_button{
+    padding: 1rem 4rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, blue, rgb(3, 154, 165));
+    color: white;
+}
+
+.my_button:hover{
+    background: linear-gradient(to left, blue, rgb(3, 154, 165));
+}
+
+.my__shadow{
+    box-shadow: 0px 12px 23px rgba(205, 209, 231, 0.07);
+}
