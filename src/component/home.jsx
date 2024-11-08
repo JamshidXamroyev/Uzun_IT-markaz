@@ -15,20 +15,20 @@ const Home = () => {
                 <p className="pl:text-[20px] text-[17px] ml-2">
                     <span className="font-bold p-1">20%</span> 
                     Chegirma
-                    <span className="font-bold p-1">1 oylik</span>
+                    <span className="font-bold p-1">3 oylik</span>
                     to'lov uchun
                 </p>
             </div>
             {/* Title */}
             <div className="w-full">
               <h1 className="font-bodyFont text-white pl:text-6xl text-5xl font-titleFont font-semibold m-3 pl:leading-[76px] leading-[50px]">
-                Yangi Avlod <br /> <span className="text-gradient p-1">To'lov Usuli</span>
+                Yangi Asr <br /> <span className="text-gradient p-1">Texnologiyasi</span>
               </h1>
             </div>
 
             {/* Description */}
             <p className="mt-5 max-w-[80vw] pl:text-[23px] text-[20px] text-white ml-3">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure distinctio cum quis, ex accusamus est commodi explicabo ratione similique.
+              Bizning IT-Markazimiz 1-yildan beri faoliyat yuritib kelmoqda va o'z o'quvchilariga yangi asr kasblarini o'rgatib kelmoqda.
             </p>
             <Button title={"Boshlash"} m={"m-2"}/>
             

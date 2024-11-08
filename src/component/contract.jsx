@@ -5,15 +5,15 @@ import { Button } from "../ui"
 const Contract = () => {
   return (
     <>
-      <h1 className="text-center pl:py-14 py-5 font-titleFont text-white pl:text-6xl text-3xl">Bizning xizmatlar</h1>
+      <h1 className="text-center pl:py-10 pt-10 font-titleFont text-white pl:text-6xl text-3xl">Bizda To'lov</h1>
       <section className={`${myStyles.section} pl:my-10 my-0`} id="service">
         <div className={`${myStyles.sectionInfo} mx-w-[47vw]`}>
           <h2 className="font-semibold pl:text-4xl text-2xl font-titleFont text-white">
-            Bir necha oson qadamda <br />
-            Kontrakt tuzish
+            Bizning to'lov  
+            Usullarimiz
           </h2>
           <p className="font-normal text-justify pl:text-[20px] text-base pl:leading-7 leading-0 font-sans text-white mt-5">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis id natus cupiditate, itaque odio voluptatum ipsam iste optio nemo praesentium accusantium, facilis doloremque? Perspiciatis eum accusantium veniam tenetur necessitatibus porro.
+            Bizda to'lov har oyning 20-sanasida 27-sanasigacha amalga oshiriladi. To'lovlar karta yoki naqd pul yordamida tolanilishi mumkin. Mobodo kimningdir ayni shu sanada to'lovni amalga oshirishga imkoniyati bo'lmasa, o'qituvchi bilan gaplashishi va to'lovni ma'lum bir muddatga kechiktirishlari mumkin.
           </p>
           <Button title={"Batafsil"} m={"mt-5"}/>
         </div>

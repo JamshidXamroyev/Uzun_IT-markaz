@@ -13,7 +13,6 @@ module.exports = {
         white: '#ffffff',
       },
       screens: {
-        xx: '0px',
         xs: '480px',
         xl: '600px',
         pl: '900px',

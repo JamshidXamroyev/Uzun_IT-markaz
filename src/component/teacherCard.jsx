@@ -11,7 +11,10 @@ const Billing = () => {
               <img src={item.img} alt="Image" className='w-full rounded-lg duration-500 pl:hover:translate-y-[-20px] hover:translate-y-[-10px]'/>
             </div>
             <h2 className='text-white font-semibold font-sans text-[20px] my-1'>O'qituvchi: {item.title}</h2>
-            <h5 className='text-white'>Mentor: {item.subtitle}</h5>
+            <div className="flex justify-between items-center border-t w-full px-6 h-[10%]">
+              <h5 className='text-white text-[20px] opacity-75'>{item.subtitle}</h5>
+              <h6 className='text-white text-[20px] opacity-75'>{item.id > 3 ? "700 000 UZS" : "500 000 UZS"}</h6>
+            </div>
           </div>
         ))}
       </section>
