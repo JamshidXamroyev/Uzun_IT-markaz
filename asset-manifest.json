@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/JamshidXamroyev/Uzun-IT-markaz-2-version.git/static/css/main.effc3cae.css",
+    "main.js": "/JamshidXamroyev/Uzun-IT-markaz-2-version.git/static/js/main.92b4a026.js",
+    "static/media/images-removebg-preview.png": "/JamshidXamroyev/Uzun-IT-markaz-2-version.git/static/media/images-removebg-preview.f172b92ed45dd8e2002f.png",
+    "index.html": "/JamshidXamroyev/Uzun-IT-markaz-2-version.git/index.html",
+    "main.effc3cae.css.map": "/JamshidXamroyev/Uzun-IT-markaz-2-version.git/static/css/main.effc3cae.css.map",
+    "main.92b4a026.js.map": "/JamshidXamroyev/Uzun-IT-markaz-2-version.git/static/js/main.92b4a026.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.effc3cae.css",
+    "static/js/main.92b4a026.js"
+  ]
+}
