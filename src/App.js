@@ -2,11 +2,10 @@ import {TeacherCard, Contract, Home, Navbar, About, Footer} from "./component"
 import {Statistics} from "./component"
 
 const App = () => {
-  window.addEventListener("DOMContentLoaded", () => {
     return (
       <>
-          <Navbar />
-          <div className="flex flex-col justify-start my__container pl:px-36 px-0 bg-black mx-auto w-[80vw]">
+        <Navbar />
+        <div className="flex flex-col justify-start my__container pl:px-36 px-0 bg-black mx-auto w-[80vw]">
           <Home />
           <Statistics />
           <About />
@@ -16,7 +15,6 @@ const App = () => {
         </div>
       </>  
     )
-  })
   }
   
 export default App
