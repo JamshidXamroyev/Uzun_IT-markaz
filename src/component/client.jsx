@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { Button } from "../ui"
 import { aboutImg } from "../util/constants"
 
 const About = () => {

@@ -18,7 +18,7 @@ const Contract = () => {
           <Button title={"Batafsil"} m={"mt-5"}/>
         </div>
         <div className={`${myStyles.sectionImage}`}>
-          <img src={contractImg} alt="image" className="rounded-lg pl:my-0 my-5" />
+          <img src={contractImg} alt="logo" className="rounded-lg pl:my-0 my-5" />
         </div>
       </section>
     </>

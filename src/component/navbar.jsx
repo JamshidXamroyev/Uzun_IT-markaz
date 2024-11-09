@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className={`flex justify-between items-center px-10 pl:pr-20 py-0 m-0 fixed w-full z-50 bg-black ${shadow ? 'my__shadow' : ''}`}>
       <div className='flex justify-center items-center xx:w-1/3 pl:w-1/5'>
-        <img src={logo} alt="image" className="w-40 p-1 m-2 cursor-pointer select-none"/>
+        <img src={logo} alt="logo" className="w-40 p-1 m-2 cursor-pointer select-none"/>
       </div>
       <div>
         <ul className={`pl:flex hidden justify-center items-center gap-5`}>
