@@ -22,9 +22,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +44,5 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.14"
-  },
-  "homepage": "https://github.com/JamshidXamroyev/Uzun-IT-markaz-2-version.git"
+  }
 }
