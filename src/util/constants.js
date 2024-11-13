@@ -26,6 +26,10 @@ export const navbarLinks = [
         id: "comment",
         title: "Fikrlar"
     },
+    {
+        id: "comment",
+        title: "Fikrlar"
+    },
 ]
 
 export const statistics = [
