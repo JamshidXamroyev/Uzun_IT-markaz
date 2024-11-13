@@ -1,4 +1,4 @@
-import {TeacherCard, Contract, Home, Navbar, About, Footer} from "./component"
+import {TeacherCard, Contract, Home, Navbar, About, Footer, AddComent} from "./component"
 import {Statistics} from "./component"
 
 const App = () => {
@@ -12,6 +12,7 @@ const App = () => {
           <TeacherCard />
           <Contract />
           <Footer />
+          <AddComent />
         </div>
       </>  
     )

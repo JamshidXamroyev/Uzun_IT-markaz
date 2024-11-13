@@ -28,7 +28,7 @@ const Home = () => {
 
             {/* Description */}
             <p className="mt-5 max-w-[80vw] pl:text-[23px] text-[20px] text-white ml-3">
-              Bizning IT-Markazimiz 1-yildan beri faoliyat yuritib kelmoqda va o'z o'quvchilariga yangi asr kasblarini o'rgatib kelmoqda.
+              Biz bilan sifatli ta'lim oling va zamonaviy kasb egasi bo'ling!
             </p>
             <Button title={"Boshlash"} m={"m-2"}/>
             

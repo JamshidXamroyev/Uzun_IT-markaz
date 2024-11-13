@@ -16,11 +16,15 @@ export const navbarLinks = [
     },
     {
         id: "product",
-        title: 'Darslar'
+        title: 'Kurslar'
     },
     {
         id: "service",
         title: "To'lovlar"
+    },
+    {
+        id: "comment",
+        title: "Fikrlar"
     },
 ]
 
